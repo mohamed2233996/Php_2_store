@@ -1,0 +1,76 @@
+body {
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+.container{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.maincont {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: #f3f3f3;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 7px 1px #6d6565;
+}
+
+.main-h {
+    font-size: 36px;
+    color: #000;
+    font-weight: 300;
+}
+
+.main-h span {
+    font-weight: bold;
+    color: #0947d9;
+}
+
+
+form input {
+    margin-top: 12px;
+    padding: 6px 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    width: 98%;
+}
+
+.all-pro{
+    text-decoration: none;
+}
+
+.pro-h{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 18px 0 0 0;
+}
+
+.pro-pri{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-div{
+    max-width: 220px;
+}
+
+.card .btn{
+    width: 45%;
+}
+
+.pro-img{
+    height: 150px;
+}
+
+.waering{
+    font-size: 13px;
+    color: red;
+    font-weight: 800;
+}

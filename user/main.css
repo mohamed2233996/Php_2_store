@@ -1,0 +1,54 @@
+html{
+    direction: rtl;
+
+}
+
+.all-pro{
+    text-decoration: none;
+}
+
+.pro-h{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 18px 0 0 0;
+}
+
+.pro-pri{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-div{
+    max-width: 220px;
+}
+
+.card .btn{
+    width: 45%;
+}
+
+.pro-img{
+    height: 150px;
+}
+
+.add-to-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.add-to-card input{
+    display: none;
+}
+
+.retenbtn{
+    text-decoration: none;
+}
+
+.center-elements{
+    display: flex!important;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
